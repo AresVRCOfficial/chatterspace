@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatterSpace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2 class="logo">ChatterSpace</h2>
+            <div class="channels">
+                <ul>
+                    <li># general</li>
+                    <li># random</li>
+                    <li># memes</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="chat">
+            <div class="chat-header">
+                <h3># general</h3>
+            </div>
+            <div class="chat-messages" id="chat-messages">
+                <!-- Messages will be added here -->
+            </div>
+            <div class="chat-input">
+                <input type="text" id="message-input" placeholder="Type a message..." />
+                <button id="send-btn">Send</button>
+            </div>
+        </div>
+
+        <div class="user-list">
+            <h4>Online</h4>
+            <ul>
+                <li>Skye</li>
+                <li>Raela</li>
+                <li>Nyssa</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
